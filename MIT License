@@ -1,0 +1,17 @@
+
+---
+
+### **Step 3: Initialize Git and Upload to GitHub**  
+
+```sh
+# Initialize git
+git init
+git add .
+git commit -m "Initial commit - Linux System Monitor Script"
+
+# Create a GitHub repository manually and link it
+git remote add origin https://github.com/your-username/linux-system-monitor.git
+
+# Push the project
+git branch -M main
+git push -u origin main
